@@ -61,4 +61,7 @@
 /sys/class/leds(/.*)?   u:object_r:sysfs_leds:s0
 
 # Power
-/system/vendor/bin/hw/android\.hardware\.power@1\.0-service\.a6000             u:object_r:hal_power_default_exec:s0
+/system/vendor/bin/hw/android\.hardware\.power@1\.0-service\.msm8916             u:object_r:hal_power_default_exec:s0
+
+# DT2W
+/sys/android_touch/doubletap2wake           u:object_r:proc_touchpanel:s0

@@ -265,5 +265,8 @@
         <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
         <item>GPS_LOCK=0</item>
     </string-array>
+   
+    <!--Whether device supports dt2w or not -->
+    <bool name="config_supportDoubleTapWake">true</bool>
 
 </resources>
