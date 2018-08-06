@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
 
 # Power hal
 PRODUCT_PACKAGES += \
-	android.hardware.power@1.0-service-msm8916
+	android.hardware.power@1.0-service.msm8916
 # Motorola Camera permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.motorola.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera.xml \
